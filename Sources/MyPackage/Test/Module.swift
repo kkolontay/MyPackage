@@ -6,7 +6,12 @@
 //
 
 import Foundation
+import AllCode
 
 struct Module {
   let text = "text"
+  func someWork() {
+    let any = AnyThing()
+    any.printText()
+  }
 }
